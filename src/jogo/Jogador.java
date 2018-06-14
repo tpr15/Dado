@@ -1,6 +1,7 @@
 package jogo;
 
-
+	/**Classe jogador
+	 * Define cor e o numero de soldados*/
 
 public class Jogador {
 	private String cor;
