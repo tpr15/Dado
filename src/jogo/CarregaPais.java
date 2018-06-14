@@ -1,7 +1,7 @@
 package jogo;
 public class CarregaPais {
 	public Territorio carregaPais(){
-		System.out.println("oi");
+		
 		//criando America do sul----------------------------
 		
 	Pais brasil = new Pais();
@@ -29,7 +29,7 @@ public class CarregaPais {
 	argentina.setSoldados(0);
 	
 	m.addPaises(argentina);
-	System.out.println(argentina.getNome());
+	
 	
 	Pais colombia = new Pais();
 	

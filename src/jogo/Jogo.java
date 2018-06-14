@@ -1,8 +1,6 @@
 package jogo;
 
 import java.util.Scanner;
-
-import javax.swing.JOptionPane;
 //import java.util.*;
 
 public class Jogo {
@@ -19,8 +17,8 @@ public class Jogo {
 
 	public static void main(String[] args) {
 		
-		System.out.println("Entre com o numero entre 2 e 4 de jogadores");
 		
+		System.out.println("Entre com o numero de 2 à 4 de jogadores");
 		entrada = new Scanner(System.in);
 		ControlaJogo jogadas = new ControlaJogo();
 		CarregaPlayers prontos = new CarregaPlayers();
@@ -30,6 +28,7 @@ public class Jogo {
 		SorteiaTerritorios sorteio = new SorteiaTerritorios();
 		ColocarSoldados maisSoldados = new ColocarSoldados();
 		MostraTabuleiro tabuleiro = new MostraTabuleiro();
+		Menu menu = new Menu();
 		
 		territorios = j.carregaPais();
 		
@@ -42,10 +41,11 @@ public class Jogo {
 			jogadas.setNumeroJogadores(x);
 		}
 		jogando = prontos.carregaPlayers(x);
-		jogadas.printMenu(0);
+		menu.printMenu(0,0);
 		for(int i = 0; i < x; i++) {
 			r = entrada.nextInt();
-			jogadas.printMenu(0);
+			
+			menu.printMenu(i,r);
 			jogando.getPlayers().get(i).setCor(r);
 		}
 		
@@ -106,12 +106,5 @@ public class Jogo {
 			
 		}
 	
-	}
-	
-	try {
-		JogoDAO dao = new JogoDAO();
-		dao.createGame(3, 4);
-	}catch(Exception e) {
-		JOptionPane.showMessageDialog(null, e);		
 	}
 }
