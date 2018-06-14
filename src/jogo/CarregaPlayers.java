@@ -1,7 +1,7 @@
 package jogo;
 
 public class CarregaPlayers {
-	
+	/** Carrega a quantidade de jogadores*/
 	Players jogadores = new Players();
 	public Players carregaPlayers(int i) {
 		if(i==2) {
