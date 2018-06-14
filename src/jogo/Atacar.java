@@ -1,5 +1,8 @@
 package jogo;
-
+/**	Classe atacar: Nesta classe tem o método que executa o ataque. 
+ * Ela verifica quantos soldados o jogador tinha para atacar, então  
+ * o método pega o numero de dados proporcional ao numero de  soldados 
+ * e compara o maior dado com o maior de cada jogador . */
 public class Atacar {
 	private int i;
 	int soldadosA;

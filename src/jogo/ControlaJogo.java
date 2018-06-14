@@ -1,12 +1,13 @@
 package jogo;
 
-
+/**A classe controla jogo serve para controlar algumas situações de jogo . 
+ * Ela não deixa que o usuário escolha um numero menor que 2 e nem maior que 4 jogadores.*/
 
 public class ControlaJogo {
 
 	private int numeroJogadores;
 	private int cor;
-	
+
 
 	public boolean CofereQuant() {
 		if (this.numeroJogadores < 2 || this.numeroJogadores > 4) {
@@ -17,32 +18,6 @@ public class ControlaJogo {
 		return true;
 	}
 	
-	public void printMenu(int i) {
-		if(i == 0) {
-			System.out.println("Escolha as cores de cada jogador: ");
-			System.out.println("(1) Para branco");
-			System.out.println("(2) Para Azul");
-			System.out.println("(3) Para vermelho");
-			System.out.println("(4) Para preto");
-		}
-		/*else if (i == 1) {
-			System.out.println("Escolha as cores de cada jogador: ");
-			System.out.println("(2) Para Azul");
-			System.out.println("(3) Para vermelho");
-			System.out.println("(4) Para preto");
-		}
-		else if (i == 2) {
-			System.out.println("Escolha as cores de cada jogador: ");
-			System.out.println("(3) Para vermelho");
-			System.out.println("(4) Para preto");
-		}
-		else if (i == 3) {
-			System.out.println("Escolha as cores de cada jogador: ");
-			System.out.println("(4) Para preto");
-		}*/
-
-		
-	}
 
 	public int getCor() {
 		return cor;
@@ -59,5 +34,7 @@ public class ControlaJogo {
 	public void setNumeroJogadores(int numeroJogadores) {
 		this.numeroJogadores = numeroJogadores;
 	}
+
+
 
 }

@@ -1,5 +1,5 @@
 package jogo;
-
+/**	A classe sorteiaDados sprteia os dados que serão usados no ataque.*/
 public class SorteiaDado {
 	
 		private int dado1;

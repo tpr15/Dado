@@ -1,5 +1,7 @@
 package jogo;
-
+/**	A classe pais é a classe que tem o atributos e get e sets de nome vizinhos ,
+ *  quantidade de soldados e a cor dos soldados  . 
+ *  Nela tem também  um pais que é o vizinho de ligação marítima que ainda não foi usado no nosso jogo.*/
 import java.util.ArrayList;
 
 public class Pais {

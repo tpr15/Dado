@@ -1,7 +1,9 @@
 package jogo;
 
 import java.util.ArrayList;
-
+/**	A classe CorDiferente tem o método corDiferente que confere se os vizinhos do 
+ * pais são de cor diferente para poder retornar um arrayList de nome de países que 
+ * podem ser atacados.*/
 public class CorDiferente {
 	int i;
 	int x;

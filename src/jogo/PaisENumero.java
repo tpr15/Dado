@@ -1,6 +1,6 @@
 package jogo;
-
-
+/**	Criamos a classe PaisENumero para suporte ao método ataque da classe 
+ * Atacar diferenciando um pais de ataque do de defesa.*/
 
 public class PaisENumero {
 	private String pais;

@@ -1,5 +1,5 @@
 package jogo;
-
+/**A classe Dado: Aqui os dados já são sorteados e setados para serem usados nos ataques.*/
 public class Dado {
 	SorteiaDado d = new SorteiaDado();
 	int dado1 = d.getDado1();
