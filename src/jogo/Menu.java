@@ -214,6 +214,7 @@ public class Menu {
 			System.out.println("Escolha as cores do 4º jogador: ");
 			System.out.println("(1) Para Branco");
 		}
+	
 		
 
 }

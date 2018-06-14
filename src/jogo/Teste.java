@@ -7,23 +7,23 @@ import org.junit.jupiter.api.Test;
 class Teste {
 
 	
-	/**Testando retorno do metodo SorteiaDado*/
+	/**Testando retorno das funções*/
 	@Test
 	void test() {
-		SorteiaDado teste = new SorteiaDado();
-		assertTrue(teste.getDado1() >0 && teste.getDado1() <7);
-	}
-	void test1() {
-		SorteiaDado teste = new SorteiaDado();
-		assertTrue(teste.getDado2() >0 && teste.getDado2() <7);
-	}
-	void test2() {
-		SorteiaDado teste = new SorteiaDado();
-		assertTrue(teste.getDado3() >0 && teste.getDado3() <7);
-	}
-	void test3() {
-		Dado teste = new Dado();
-		assertTrue(teste.getDado3() <= teste.getDado2() && teste.getDado2() <= teste.getDado1());
+		SorteiaDado teste1 = new SorteiaDado();
+		assertTrue(teste1.getDado1() >0 && teste1.getDado1() <7);
+	
+		SorteiaDado teste2 = new SorteiaDado();
+		assertTrue(teste2.getDado2() >0 && teste2.getDado2() <7);
+	
+		SorteiaDado teste3 = new SorteiaDado();
+		assertTrue(teste3.getDado3() >0 && teste3.getDado3() <7);
+	
+		//Dado teste4 = new Dado();
+		//assertTrue(teste4.getDado3() >= teste4.getDado2() && teste4.getDado2() >= teste4.getDado1());
+	
+		CarregaPais teste5 = new CarregaPais();
+		assertTrue(teste5.carregaPais().getPaises().size()== 24 );
 	}
 	
 	
