@@ -109,11 +109,6 @@ public class Jogo {
 		}
 	
 	}
-	/*	try {
-		JogoDAO dao = new JogoDAO();
-		dao.createGame(3, 4);
-	}catch(Exception e) {
-		JOptionPane.showMessageDialog(null, e);		
-	}*/
+	
 
 }
