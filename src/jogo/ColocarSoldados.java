@@ -1,5 +1,6 @@
 package jogo;
-
+/**	A classe ColocaSoldado serve para colocar os soldados ganhos no inicio da 
+ * partida nos países escolhidos pelo jogador.*/
 import java.util.Scanner;
 
 public class ColocarSoldados {

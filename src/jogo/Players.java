@@ -1,7 +1,7 @@
 package jogo;
 
 import java.util.ArrayList;
-
+/**	A classe Players foi criada para guardar jogadores em um arrayList.*/
 public class Players {
 	private ArrayList<Jogador> players;
 	

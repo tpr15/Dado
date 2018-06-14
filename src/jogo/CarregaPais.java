@@ -1,4 +1,6 @@
 package jogo;
+/** CarregaPais existe o método carregaPais que instancia todos os 24 países para 
+ * serem sorteados depois.  */ 
 public class CarregaPais {
 	public Territorio carregaPais(){
 		

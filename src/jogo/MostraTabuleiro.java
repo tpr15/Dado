@@ -2,7 +2,10 @@ package jogo;
 
 import java.util.ArrayList;
 import java.util.Scanner;
-
+/**	A classe MostraTabuleiro foi criada inicialmente para mostrar os territórios 
+ * e quem os possui mas acabamos colocando nela também métodos importantes como o 
+ * atacar que recebe dois países . Um pais que vai atacar e o pais que vai defender, 
+ * depois executa o ataque.*/
 public class MostraTabuleiro {
 	private int i;
 	private int x = 0;

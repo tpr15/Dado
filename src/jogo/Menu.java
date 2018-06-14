@@ -1,6 +1,7 @@
 package jogo;
 
-
+/**	A classe Menu foi criada para mostrar as opções de cores 
+ * para serem escolhidas pelos jogadores no inicio da partida .*/
 
 
 public class Menu {

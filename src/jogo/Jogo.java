@@ -1,5 +1,10 @@
 package jogo;
-
+/** A classe jogo é a main e é onde acontece o desenrolar do jogo. 
+ * Nela pede o numero de jogadores que vão jogar depois chama o método 
+ * carregaPlayer pra carregar o numero de jogadores pedidos. 
+ * Depois deixa os jogadores escolherem as cores . 
+ * Logo após os territórios são sorteados quando o método  sorteiaTerritorios é chamado. 
+ * Pra finalizar é exibido os territórios de cada jogador e os ataques são realizados para cada pais.*/
 import java.util.Scanner;
 //import java.util.*;
 
@@ -11,9 +16,6 @@ public class Jogo {
 	private static int x = 0;
 	static int q;
 	static int r;
-
-
-
 
 	public static void main(String[] args) {
 		
@@ -107,4 +109,11 @@ public class Jogo {
 		}
 	
 	}
+	/*	try {
+		JogoDAO dao = new JogoDAO();
+		dao.createGame(3, 4);
+	}catch(Exception e) {
+		JOptionPane.showMessageDialog(null, e);		
+	}*/
+
 }

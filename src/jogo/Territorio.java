@@ -1,5 +1,6 @@
 package jogo;
-
+/**	Na classe território foi criada para gerar um arayList de países para 
+ * serem manipulados durante o jogo.   */
 import java.util.ArrayList;
 
 public class Territorio {

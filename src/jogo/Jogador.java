@@ -1,6 +1,6 @@
 package jogo;
 
-	/**Classe jogador
+	/**	A classe jogador  é a classe que tem os atributos de cada jogador.
 	 * Define cor e o numero de soldados*/
 
 public class Jogador {

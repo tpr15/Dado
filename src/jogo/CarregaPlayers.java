@@ -1,5 +1,7 @@
 package jogo;
-
+/**	Classe CarregaPlayer  tem o objetivo de criar jogadores no método carregaPlayer. 
+ * Ele recebe um int indicando o numero de jogadores que iram jogar e retorna um ArrayList 
+ * de jogadores */
 public class CarregaPlayers {
 	
 	Players jogadores = new Players();

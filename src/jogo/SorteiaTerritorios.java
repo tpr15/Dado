@@ -1,5 +1,7 @@
 package jogo;
-
+/**	A classe SorteiaTerritorios é a classe que tem o método que sorteia 
+ * os territórios para a quantidade de jogadores que forem jogar. 
+ * Nela tem um método que bagunça um arrayList de países e depois divide eles entre o numero de jogadores.*/
 import java.util.Collections;
 
 public class SorteiaTerritorios {

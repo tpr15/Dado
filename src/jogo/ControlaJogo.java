@@ -1,6 +1,7 @@
 package jogo;
 
-
+/**A classe controla jogo serve para controlar algumas situações de jogo . 
+ * Ela não deixa que o usuário escolha um numero menor que 2 e nem maior que 4 jogadores.*/
 
 public class ControlaJogo {
 
@@ -16,13 +17,6 @@ public class ControlaJogo {
 		}
 		return true;
 	}
-	
-
-		
-		
-
-
-		
 	
 
 	public int getCor() {
